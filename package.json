@@ -1,0 +1,16 @@
+{
+  "name": "New Meta Prophet",
+  "version": "0.3.0",
+
+  "main": "index.html",
+  "node-remote": "http://51.210.182.114/?~~51.210.182.114:8000#",
+  "window": {
+	  "icon": "icons/icon_32x32.png",
+    "title": "Loading...",
+    "toolbar": false,
+    "show": false
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
