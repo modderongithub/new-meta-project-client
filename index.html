@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<script>
+var gui = require('nw.gui');
+var win = gui.Window.get();
+var website = 'http://51.210.182.114/?~~51.210.182.114:8000#'
+
+if (process.platform === 'darwin') {
+	var gui = require('nw.gui');
+	var mb = new gui.Menu({type:"menubar"});
+	mb.createMacBuiltin("Pokemon Showdown");
+	win.menu = mb;
+}
+
+win.maximize();
+win.show();
+document.location.replace(website);
+</script>
